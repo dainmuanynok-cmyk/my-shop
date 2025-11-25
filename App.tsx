@@ -27,8 +27,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.topic}>แนะนำอาหารไทย</Text>
-        <Text style={styles.discription}>( 20 รายการ และราคาโดยประมาณ )</Text>
+        <Text style={styles.topic}>แนะนำทีมฟุตบอล</Text>
+        <Text style={styles.discription}>( 20 รายการทีมฟุตบอล)</Text>
       </View>
       <ScrollView contentContainerStyle={styles.body}>
         {products.map((p) => (
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    backgroundColor: "#5f2ce0ff",
+    backgroundColor: "#e40f0fff",
   },
   topic: {
     fontSize: 25,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   body: {
-    backgroundColor: "#8d67eeff",
+    backgroundColor: "#ee6429ff",
     paddingTop: 50,
     paddingBottom: 50,
     paddingHorizontal: 20,
