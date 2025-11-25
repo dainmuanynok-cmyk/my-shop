@@ -2,6 +2,28 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 export default function App() {
+  const products = [
+    { id: 1, name: "ต้มยำกุ้ง", price: 30 },
+    { id: 2, name: "ส้มตำ", price: 25 },
+    { id: 3, name: "ขนมจีน", price: 20 },
+    { id: 4, name: "แกงมัสมั่น", price: 40 },
+    { id: 5, name: "ผัดผักบุ้ง", price: 35 },
+    { id: 6, name: "ผัดซีออิ้ว", price: 30 },
+    { id: 7, name: "ผัดเผ็ดปลาดุก", price: 30 },
+    { id: 8, name: "แกงแพนง", price: 35 },
+    { id: 9, name: "ลาดหน้า", price: 30 },
+    { id: 10, name: "ลาบ", price: 25 },
+    { id: 11, name: "แกงส้ม", price: 30 },
+    { id: 12, name: "แกงป่า", price: 35 },
+    { id: 13, name: "แกงเทโพ", price: 30 },
+    { id: 14, name: "แกงขี้เหล็ก", price: 30 },
+    { id: 15, name: "ข้าวซอย", price: 30 },
+    { id: 16, name: "ข้าวหมูแดง", price: 30 },
+    { id: 17, name: "ข้าวผัด", price: 30 },
+    { id: 18, name: "ข้าวเหนียวมะม่วง", price: 30 },
+    { id: 19, name: "ข้าวมันไก่", price: 30 },
+    { id: 20, name: "แกงเขียวหวาน", price: 30 },
+  ];
   return (
     <View>
       <Text>App</Text>
